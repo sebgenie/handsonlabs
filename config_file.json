@@ -1,0 +1,12 @@
+{
+    "assume_role_arn": "arn:aws:iam::351325638298:role/ec2_instances_admin",
+    "ami":"ami-07caf09b362be10b8",
+    "role_name":"testProf10",
+    "instance_profile_name":"testProf10",
+    "security_group":"testsg",
+    "credentials": {
+        "user_test" : "seb",
+        "password" : "sebtest"
+    },
+    "dry_run": false
+}
